@@ -1,0 +1,11 @@
+{
+  "name": "jest-snapshots-demo",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^4.1.4",
+    "prettier": "^1.17.0"
+  }
+}

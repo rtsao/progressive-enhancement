@@ -1,0 +1,23 @@
+{
+  "name": "cup",
+  "version": "1.0.0",
+  "files": [
+    "dist-browser-esm",
+    "dist-node-cjs",
+    "dist-node-esm",
+    "src"
+  ],
+  "main": "./dist-node-cjs/index.js",
+  "module": "./dist-node-esm/index.js",
+  "browser": {
+    "./dist-node-cjs/index.js": "./dist-browser-cjs/index.js",
+    "./dist-node-esm/index.js": "./dist-browser-esm/index.js"
+  },
+  "scripts": {
+    "prepare": "cup build"
+  },
+  "dependencies": {
+    "create-universal-package": "^4.1.0"
+  },
+  "license": "MIT"
+}

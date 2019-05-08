@@ -1,0 +1,9 @@
+{
+  "name": "flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "flow-bin": "^0.98.1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "styletron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "sirv --dev"
+  },
+  "dependencies": {
+    "sirv-cli": "^0.4.0"
+  }
+}
